@@ -1,0 +1,171 @@
+--------------------------------------------------------------------------------
+Este documento tem como objetivo apresentar um conteudo introdutório sobre java.
+--------------------------------------------------------------------------------
+
+• É interessante ter noção ou conhecimento prévio em:
+  - Algoritmos ..................................... é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema.
+  - Lógica de programação .......................... é o modo como se escreve um programa de computador.
+  - Linguagem de programação ....................... é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte.
+  - Paradigma de programação ....................... é um meio de se classificar as linguagens de programação baseado em suas funcionalidades.
+
+
+--------------------------------------------------------------------------------
+Java é uma linguagem de programação orientada a objetos.
+--------------------------------------------------------------------------------
+
+• Linguagem de programação: 
+  É um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte 
+  - que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado 
+  - que informará instruções de processamento ao computador.
+  
+• Programação Orientada a objetos:
+  É um paradigma de programação. 
+  
+• Paradigma:
+  É um termo com origem no grego "paradeigma" que significa modelo, padrão. 
+  - No sentido lato corresponde a algo que vai servir de modelo ou exemplo a ser seguido em determinada situação. 
+  - O paradigma é um princípio, teoria ou conhecimento. 
+  - Uma referência inicial que servirá de modelo a ser seguido.
+
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+| LEITURA COMPLEMENTAR
+|
+| Programação Orientada a Objetos x Programação Estruturada
+| 
+| A programação orientada a objetos define uma programação voltada aos conceitos de classes e herança e, em contrapartida, 
+| A programação estruturada define uma programação voltada a procedimentos e funções definidas pelo usuário.
+| 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+---------------------------------------------------------------------------------------------------------------------------------------
+LINKS IMPORTANTES
+---------------------------------------------------------------------------------------------------------------------------------------
+
+JAVA
+https://www.java.com/pt-BR/
+
+COMO POSSO COMEÇAR A DESENVOLVER PROGRAMAS JAVA COM O JAVA DEVELOPMENT KIT (JDK)?
+https://www.java.com/pt-BR/download/help/develop.html
+
+ONDE EU POSSO OBTER O DOWNLOAD DO JDK?
+Para fazer download da versão mais recente do JDK (Java Development Kit), acesse Downloads do JDK ( http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk )
+
+Os desenvolvedores também podem consultar o Oracle Technology Network for Java Developers ( http://www.oracle.com/technetwork/java/index.html )
+para tudo o que for preciso saber sobre a tecnologia Java, inclusive documentação ( http://www.oracle.com/technetwork/java/javase/documentation/index.html )
+e treinamento ( http://education.oracle.com/pls/web_prod-plq-dad/ou_product_category.getFamilyPage?p_family_id=48 ).
+
+E SE EU FOR PRINCIPIANTE EM JAVA?
+Se você for novo em Java e estiver interessado em começar a desenvolver programas Java, consulte principiante em Java ( http://www.oracle.com/technetwork/topics/newtojava/overview/index.html )
+para encontrar informações úteis para iniciantes.
+
+COMO FAÇO PARA OBTER CERTIFICAÇÃO JAVA?
+Saiba mais sobre a Certificação Java ( http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=457&get_params=pillar_id:5 )
+
+
+COMUNIDADE PARA DESENVOLVEDORES
+https://dev.java/
+
+ORACLE
+NOVO CENTRO DE PROGRAMAÇÃO JAVA ( https://www.oracle.com/topics/technologies/newtojava/programming-center.html )
+Tutoriais e treinamento para desenvolvedores Java ( https://www.oracle.com/java/technologies/jdtt-jsp.html )
+
+
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+| DOCUMENTAÇÃO OFICIAL EM PORTUGUÊS
+| 
+| https://docs.oracle.com/javase/8/docs/api/ 3,6k
+| https://docs.oracle.com/javase/8/docs/ 2,6k
+| 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+- CÓDIGO FONTE:
+  É o código escrito por um prograqmador em uma determinada linguagem de programação. Compreende a sintaxe, a lógica, as classes...
+  
+- COMPILADOR JAVA (JAVAC): 
+  É responsável por analisar, validar o código fonte  e gerar o Bytecode.
+  
+- BYTECODE
+  É um formato de código intermediário entre o código fonte, o texto que o programador consegue manipular, e o código de máquina, que o computador consegue executar.
+  
+- JVM (Java Virtual Machine): 
+  É um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código executável de máquina.
+  A partir dfe um Bytecode gerado em qualquer sistema operacional a JVM gera o código executável para o sistema operacional.
+  Por não ser necessário haver um bytecode para cada sistema operacional podemos dizer que o java é Multiplataforma (Windows, Linux, IOS, Android).
+
+
+
+
+https://www.java.com/pt-BR/
+
+
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+| ONDE POSSO OBTER INFORMAÇÕES TÉCNICAS SOBRE O JAVA?
+| 
+| https://www.java.com/pt-BR/download/help/techinfo_pt-br.html
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+| COMUNIDADE DEV JAVA
+| https://dev.java/
+| 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+QUAL A DIFERENÇA ENTRE O JRE E O JDK?
+ 
+- JRE (Java Runtime environment)
+- JDK (Java Development Kit)
+
+
+JRE (Java Runtime environment)
+
+• É uma implementação do Java Virtual Machine* que na verdade executa programas Java.
+• O Java Runtime Environment é um plug-in necessário para a execução de programas Java.	
+• O JRE é menor que o JDK, portanto, ele necessita de menos espaço em disco.	
+• É possível fazer download/obter suporte para o JRE no endereço http://www.java.com/
+• Inclui o JVM, as bibliotecas centrais e outros componentes adicionais para executar aplicativos e applets criados em Java.	
+
+JDK (Java Development Kit)
+
+• É um pacote de software que você pode usar para desenvolver aplicativos baseados em Java.
+• O Java Development Kit é necessário para desenvolver aplicativos java.
+• O JDK necessita de mais espaço em disco porque ele contém o JRE juntamente com várias ferramentas de desenvolvimento.
+• É possível fazer download/obter suporte para o JDK no endereço http://www.oracle.com/technetwork/java/javase/downloads/index.html
+• Inclui o JRE, conjunto de classes de API, compilador Java, Webstart e arquivos adicionais necessários para criar applets e aplicativos Java.
+ 
+
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+| JAVA E SUAS TECNOLOGIAS
+| https://www.oracle.com/java/technologies/
+| 
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Java SE                             
+Assinatura Java SE
+Java Embedded
+Java EE
+Java ME
+Java Card
+Java TV
+Java DB
+Ferramentas de desenvolvimento
+
+
+TUTORIAIS E TREINAMENTO PARA DESENVOLVEDORES JAVA (**********)
+https://www.oracle.com/java/technologies/jdtt-jsp.html
+https://docs.oracle.com/javase/tutorial/index.html
+
+CERTIFICAÇÃO JAVA 
+https://education.oracle.com/pt_BR/
+https://education.oracle.com/pt_BR/learning-explorer
+
+
+E se eu for principiante em Java?
+http://www.oracle.com/technetwork/topics/newtojava/overview/index.html
+
+Como faço para obter certificação Java?
+http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=457&get_params=pillar_id:5
+
+Como posso começar a desenvolver programas Java com o Java Development Kit (JDK)?
+
+
+

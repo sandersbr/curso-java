@@ -167,5 +167,89 @@ http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=457&ge
 
 Como posso começar a desenvolver programas Java com o Java Development Kit (JDK)?
 
+>>>>> NetBeans desenvolvendo aplicativos com o NetBeans IDE ( https://docs.oracle.com/cd/E50453_01/doc.80/e50452/toc.htm )
+>>>>> Trilha NetBeans ( http://netbeans.apache.org/kb/docs/java/ )
+
+--------------------------------------------------------------------------------
+PASSO A PASSO - 
+--------------------------------------------------------------------------------
+
+Pré-requisito:
+- Algoritmos
+- Lógica de programação
+
+Ferramentas:
+- IDE (Netbeans)
+- JDK (jdk-7u80-nb-8_0_2-windows-x64.exe
+- JavaFX SceneBuilder (javafx_scenebuilder-2_0-windows.msi)
+- Dodumentação Java (jdk-8u311-docs-all.zip)
+
+
+Instale o JDK que já vem com a IDE NetBeans:
+- Utilize o jdk-7u80-nb-8_0_2-windows-x64.exe
+
+Após concluída a instalação:
+- Execute o NetBeans IDE 8.0.2;
+
+
+VAMOS CRIAR NOSSO PRIMEIRO PROGRAMA "Olá, Mundo!"
+
+Com o NetBEans aberto:
+- Clique no menu Arquivo 
+- Clique em Novo Projeto
+
+Será exibida a janela Novo Projeto
+
+Na etapa 1. Escolher Projeto:
+- Em Categoria selecione Java
+- Em Projetos selecione Aplicação Java
+- Em seguida clique no botão Próximo
+
+Na etapa 2. Nome e Localização
+- Em Nome do Projeto digite: primeiroprograma
+- Em Localização do Projeto: será exibida a pasta em seu computador onde será criado seu projeto java
+- Selecione o checkbox, Criar Class Principal
+- Em seguida clique no botão Finalizar
+
+A IDE irá criar a estrutura de pastas e arquivos de seu projeto
+
+ [-] + PrimeiroPrograma
+     | + Pacotes de Códigos-Fonte
+     |   + primeiroprograma
+     |     + PrimeiroPrograma.java
+     + Bibliotecas
+
+No arquivo PrimeiroPrograma.java escreva o código abaixo:
+
+  package primeiroprograma;
+
+  public class PrimeiroPrograma {
+
+      public static void main(String[] args) {
+          System.out.print("Olá, Mundo!");
+          System.out.println("");
+      }
+    
+  }
+
+
+- Em seguida clique F6 (Executar Projeto)
+
+Será exibida a janela de saída com a mensagem:  Olá, Mundo! CONSTRUÍDO COM SUCESSO (tempo total: 1 segundo)
+
+
+
+--------------------------------------------------------------------------------
+CAMEL CASE - 
+--------------------------------------------------------------------------------
+
+MinhaClasse           Classe / Interface
+meuAtributo           Atributo
+minhaVariavel         Variavel
+meuMetodo             Metodo
+meu_pacote            Pacote
+MINHA_CONSTANTE       Constante
+
+
 
 
